@@ -1,5 +1,6 @@
 import React from "react";
 import LinkedIn from "@material-ui/icons/LinkedIn";
+import Footer from "./footer";
 
 
 function About() {
@@ -42,6 +43,7 @@ function About() {
         <p>
             I completed my full stack web development bootcamp and flutter development bootcamp at the london app brewery in january 2020. Fluent in Flutter, Html, Css and Javascript I decided to focus on the front-end and build my career as a front-end developer. Having acquired a strong understanding of React, TailwindCss, MaterialUi, Flutter and Firebase Technologies coupled with a firm digital marketing background, I noticed that anyone can develop a website/mobile app but I develop websites and mobile apps that solve real world challenges.
         </p>
+        <Footer />
             </article>
 
         
