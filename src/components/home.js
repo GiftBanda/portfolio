@@ -72,6 +72,7 @@ function Home() {
             
             <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.linkedin.com/in/gift-banda-557a04b9/" className="secondary-btn" variant="contained" size="medium" color="secondary" >LET'S CONNECT</motion.a>
         </div>
+        
         </div>
         </Zoom> 
 
