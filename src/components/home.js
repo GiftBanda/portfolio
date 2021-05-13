@@ -1,7 +1,6 @@
 import { SvgIcon } from "@material-ui/core";
 import React from "react";
 import Footer from "./footer";
-import {Link} from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import {motion} from "framer-motion";
 
@@ -67,7 +66,7 @@ function Home() {
 
         
         <div className="btn" >
-            <Link className="primary-btn" to="/projects" >SELECTED PROJECTS</Link>
+            <a href='../cv.docx' className="primary-btn" download >Download CV</a>
             
             <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.linkedin.com/in/gift-banda-557a04b9/" target='_blank' rel='noreferrer' className="secondary-btn" variant="contained" size="medium" color="secondary" >LET'S CONNECT</motion.a>
         </div>

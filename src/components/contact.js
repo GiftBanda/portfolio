@@ -23,27 +23,27 @@ function Contact() {
             </h2>
             <Zoom top cascade>
             <div className="profiles" >
-                <a href="https://twitter.com/GiftBanda42" >
+                <a href="https://twitter.com/GiftBanda42" target='_blank' rel='noreferrer' >
                 <Twitter className="profiles twitter"  style={{fontSize: "40px"}} />
                 </a>
 
-                <a  href="https://www.linkedin.com/in/gift-banda-557a04b9/" >
+                <a  href="https://www.linkedin.com/in/gift-banda-557a04b9/" target='_blank' rel='noreferrer' >
                 <LinkedIn className="profiles linkedin" style={{fontSize: "40px"}}  />
                 </a>
 
-                <a href="https://github.com/GiftBanda" >
+                <a href="https://github.com/GiftBanda" target='_blank' rel='noreferrer' >
                 <GitHub className="profiles github"  style={{fontSize: "40px"}} />
                 </a>
 
-                <a href="mailto:bandagift42@gmail.com" >
+                <a href="mailto:bandagift42@gmail.com" target='_blank' rel='noreferrer' >
                 <Email className="profiles email"  style={{fontSize: "40px"}} />  
                 </a>
 
-                <a href="https://wa.me/message/4UOYUNANJP5UL1" >
+                <a href="https://wa.me/message/4UOYUNANJP5UL1" target='_blank' rel='noreferrer' >
                 <WhatsApp  className="profiles whatsapp"  style={{fontSize: "40px"}}  />  
                 </a>
                 
-                <a href="tel:+260977560054" >
+                <a href="tel:+260977560054" target='_blank' rel='noreferrer' >
                 <Phone  className="profiles whatsapp" style={{fontSize: "40px"}} /> 
                 </a>
                 

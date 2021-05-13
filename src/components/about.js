@@ -9,7 +9,7 @@ function About() {
             <article>
             <div className="heading about" >
             <Fade top>
-            <a href="https://www.linkedin.com/in/gift-banda-557a04b9/" >
+            <a href="https://www.linkedin.com/in/gift-banda-557a04b9/" target='_blank' rel='noreferrer' >
                 <LinkedIn className="linkedin" style={{fontSize: "80px"}} />
             </a>
             </Fade>

@@ -10,8 +10,8 @@ export default function Card(props) {
                 {props.description}
             </p>
             <div>
-            <a href={props.link} className="live-btn" size="medium" >LIVE PREVIEW</a>
-            <a href={props.github} className="secondary-btn" size="medium" >SOURCE CODE</a>
+            <a href={props.link} className="live-btn" size="medium" target='_blank' rel='noreferrer' >LIVE PREVIEW</a>
+            <a href={props.github} className="secondary-btn" size="medium" target='_blank' rel='noreferrer' >SOURCE CODE</a>
             </div>
         </div>
     );
