@@ -16,10 +16,13 @@ function Contact() {
             <Zoom>
             <img src="../images/business.png" alt="Gift Banda" />
             </Zoom>
-            <p>
-               LET'S TALK! 
+            <p style={{textTransform: 'capitalize' ,width: '400px', textAlign: 'center', margin: '0 auto', paddingBottom: '.5rem'}} >
+                Do You have a project or You want to hire me or maybe you just want to say Hi
             </p>
-            <Fade left>
+            <h2>
+                LET'S TALK! 
+            </h2>
+            <Zoom top cascade>
             <div className="profiles" >
                 <a href="https://twitter.com/GiftBanda42" >
                 <Twitter className="profiles twitter"  style={{fontSize: "40px"}} />
@@ -51,7 +54,7 @@ function Contact() {
                 
                 
             </div>
-            </Fade>
+            </Zoom>
             <Footer />
         </div>
     );

@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "./card";
 import ProjectDetails from "../models/ProjectDetails";
+import {Zoom} from 'react-reveal';
 
 
 function Projects() {
     return(
-        
+        <Zoom right>
         <div className="projects" >
             {ProjectDetails.map((project, index) => (
                 <Card
@@ -18,7 +19,7 @@ function Projects() {
                 />
             ))}
         </div>
-      
+        </Zoom>
     );
 }
 

@@ -9,25 +9,24 @@ import {motion} from "framer-motion";
 
 function Home() {
     return(
-        <div className="" >
-
-        
+        <div className='home-section'>
         <div className="home"  >
             
-            
-            <Pulse>
             <div className="greeting" >
+                <Zoom bottom cascade>
                 <h2>
                     Hello
                 </h2>
+                </Zoom>
             </div>
-            </Pulse>
-            <div className="App" >
-
-           <Zoom>
+            
+        <div className="App" >
+        <Zoom>
         <div>
+        <Zoom top cascade>
         <h1 className="myname" >I'm Gift Banda</h1>
         <h2 className="role" >FRONT-END DEVELOPER</h2>
+        </Zoom>
         <div className="set" >
             
             <SvgIcon className="skills html"  >
@@ -60,23 +59,24 @@ function Home() {
             
         </div>
         <div>
-        
+        <Zoom bottom cascade>
         <p>
             with a digital marketing background
         </p>
+        </Zoom>
         </div>
 
         
         <div className="btn" >
             <Link className="primary-btn" to="/projects" >SELECTED PROJECTS</Link>
             
-            <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.linkedin.com/in/gift-banda-557a04b9/" className="secondary-btn" variant="contained" size="medium" color="secondary" >LET'S CONNECT</motion.a>
+            <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.linkedin.com/in/gift-banda-557a04b9/" target='_blank' rel='noreferrer' className="secondary-btn" variant="contained" size="medium" color="secondary" >LET'S CONNECT</motion.a>
         </div>
         
         </div>
         </Zoom> 
 
-        <Zoom>
+        <Zoom right>
         <img src="../images/gift.png" alt="gift" />
         </Zoom>
 
