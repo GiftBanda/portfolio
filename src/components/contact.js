@@ -6,7 +6,6 @@ import GitHub from "@material-ui/icons/GitHub";
 import Email from "@material-ui/icons/Email";
 import Phone from "@material-ui/icons/Call";
 import Footer from "./footer";
-import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 
 function Contact() {
@@ -47,11 +46,6 @@ function Contact() {
                 <a href="tel:+260977560054" >
                 <Phone  className="profiles whatsapp" style={{fontSize: "40px"}} /> 
                 </a>
-                
-                
-                
-                
-                
                 
             </div>
             </Zoom>

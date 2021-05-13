@@ -3,7 +3,6 @@ import React from "react";
 import Footer from "./footer";
 import {Link} from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
-import Pulse from "react-reveal/Pulse";
 import {motion} from "framer-motion";
 
 
