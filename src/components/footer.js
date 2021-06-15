@@ -7,7 +7,7 @@ export default function Footer() {
     return(
         <div className="footer" >
             <Zoom>
-            <p>Created with love by Gift Banda, <span>©{year} </span> </p>
+            <p>A Gift Banda Website <span>©{year} </span> </p>
             </Zoom>
         </div>
     );
