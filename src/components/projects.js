@@ -6,9 +6,18 @@ import {Zoom} from 'react-reveal';
 
 function Projects() {
     return(
-        <Zoom right>
-        <div className="projects" >
+        <div className='projects'> 
+        <hr />
+            <Zoom right cascade>
+            <h2 >Projects</h2>
+            </Zoom>
+            <h6>
+                I really enjoyed working on these projects to help sharpen my skills and keep me upto date with latest trends in the industry. My favourite among these projects is afrogig website which is a job listing platform dedicated to serve computer science talents and professionals.
+            </h6>
+            <div className="projects-grid" >
+            
             {ProjectDetails.map((project, index) => (
+                <Zoom right>
                 <Card
                 key={index}
                 img={project.img}
@@ -17,9 +26,10 @@ function Projects() {
                 link={project.link}
                 github={project.github}
                 />
+                </Zoom>
             ))}
+            </div>
         </div>
-        </Zoom>
     );
 }
 

@@ -12,11 +12,18 @@ function Contact() {
     return(
         
         <div className="contact" >
+            <hr />
+            <Zoom right cascade>
+            <h1 >Contact Me</h1>
+            </Zoom>
+            <p>
+                My DMs are Open Feel Free To Get In Touch
+            </p>
             <Zoom>
             <img src="../images/business.png" alt="Gift Banda" />
             </Zoom>
             <p style={{textTransform: 'capitalize' ,width: '400px', textAlign: 'center', margin: '0 auto', paddingBottom: '.5rem'}} >
-                You want to hire me or maybe you just want to say Hi?
+                hire me or maybe you just want to say Hi?
             </p>
             <h2>
                 LET'S TALK! 
